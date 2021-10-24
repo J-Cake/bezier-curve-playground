@@ -2,7 +2,7 @@ import {Coordinate, GameObject, Rect} from "./GameObject";
 import {State} from "../main";
 
 export default abstract class DragObject extends GameObject {
-    private isDragging: boolean = false;
+    protected isDragging: boolean = false;
 
     protected constructor(hitBox: Rect) {
         super(hitBox);

@@ -9,7 +9,7 @@ export default class Handle extends DragObject {
     }
 
     render(ctx: p5, state: GlobalState) {
-        if (this.isInterceptingRadius(state.mouse, 10)) {
+        if (this.isInterceptingRadius(state.mouse, 10) || this.isDragging) {
             ctx.fill(0xff);
             ctx.stroke(0, 0, 0, 128);
         } else {
