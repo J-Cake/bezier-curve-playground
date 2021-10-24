@@ -1,0 +1,31 @@
+{
+    "name": "game-framework",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./server.js",
+    "type": "module",
+    "scripts": {
+        "clean": "rm -rf ./build",
+        "build:debug": "esbuild src/main.ts --outfile=./build/target/bezier.js --platform=browser --bundle --sourcemap",
+        "build:release": "esbuild src/main.ts --outfile=./build/target/bezier.min.js --platform=browser --bundle --sourcemap --minify --tree-shaking=true",
+        "server": "node --es-module-specifier-resolution=node --enable-source-maps=true ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "p5": "latest",
+        "jquery": "latest",
+        "mousetrap": "latest",
+        "lodash": "latest",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/p5": "latest",
+        "@types/jquery": "latest",
+        "@types/mousetrap": "latest",
+        "@types/lodash": "latest",
+        "typescript": "latest",
+        "esbuild": "latest"
+    }
+}

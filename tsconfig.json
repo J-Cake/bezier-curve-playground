@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "lib": ["esnext", "dom"],
+        "sourceMap": true,
+        "rootDirs": ["server",
+            "src"
+        ],
+        "outDir": "./build/out",
+
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules"]
+}
