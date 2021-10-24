@@ -1,6 +1,6 @@
 # Bezier Curves.
 
-# The *U* combinator
+## The *U* combinator
 
 > In mathematics and computer science in general, a fixed point of a function is a value that is mapped to itself by the function. (Wikipedia)
 **The fuck?**
@@ -14,7 +14,7 @@ simplified*) and be squeezed into a single line. It's actually very elegant.
 
 Thanks FP!
 
-# Bezier Curves
+## Bezier Curves
 
 > The first *e* is actually accented, but I'll be using the word a lot, and typing it quickly becomes annoying.
 > So I'll omit it for convenience sake. just pretend it's there.
